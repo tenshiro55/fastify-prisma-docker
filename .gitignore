@@ -4,8 +4,10 @@ node_modules/
 # Build artifacts
 dist/
 build/
-db-backend/
-db-data/
+db-backend/*
+db-data/*
+!/db-data/.gitkeep
+!/db-backend/.gitkeep
 
 *.js.map
 *.d.ts.map
